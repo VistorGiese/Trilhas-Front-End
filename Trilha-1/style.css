@@ -1,0 +1,129 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  background-color: #f9f9f9;
+}
+
+h2 {
+  margin-top: 60px;
+  color: #333;
+}
+
+/* 1. Botão Estilizado */
+.custom-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.custom-button:hover {
+  background-color: #45a049;
+}
+
+/* 2. Cartão de Perfil */
+.profile-card {
+  width: 250px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+.profile-card img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+/* 3. Card Responsivo */
+.card {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 600px) {
+  .card {
+    background-color: #cce5ff;
+  }
+}
+
+/* 4. Galeria com Grid */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 16px;
+  padding: 20px 0;
+  margin-bottom: 30px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* 5. Navbar com Flex */
+.navbar {
+  display: flex;
+  background-color: #333;
+  padding: 12px;
+  margin-bottom: 30px;
+}
+
+.navbar a {
+  color: white;
+  padding: 0 15px;
+  text-decoration: none;
+  line-height: 24px;
+}
+
+.navbar a:hover {
+  background-color: #575757;
+  border-radius: 5px;
+}
+
+/* 6. Formulário Estilizado */
+.contact-form {
+  width: 300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-family: Arial, sans-serif;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.contact-form button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+hr {
+  margin: 40px 0;
+}
